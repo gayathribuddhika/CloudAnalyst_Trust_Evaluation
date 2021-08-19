@@ -19,14 +19,14 @@
          <string>x</string>
          <void method="set">
           <object idref="Point2D$Double0"/>
-          <double>150.0</double>
+          <double>425.0</double>
          </void>
         </void>
         <void class="java.awt.geom.Point2D$Double" method="getField">
          <string>y</string>
          <void method="set">
           <object idref="Point2D$Double0"/>
-          <double>160.0</double>
+          <double>140.0</double>
          </void>
         </void>
        </object>
@@ -47,7 +47,7 @@
        <int>1000</int>
       </void>
       <void property="region">
-       <int>5</int>
+       <int>2</int>
       </void>
       <void property="reqPerHrPerUser">
        <int>60</int>
@@ -73,14 +73,14 @@
          <string>x</string>
          <void method="set">
           <object idref="Point2D$Double1"/>
-          <double>230.0</double>
+          <double>150.0</double>
          </void>
         </void>
         <void class="java.awt.geom.Point2D$Double" method="getField">
          <string>y</string>
          <void method="set">
           <object idref="Point2D$Double1"/>
-          <double>355.0</double>
+          <double>160.0</double>
          </void>
         </void>
        </object>
@@ -99,9 +99,6 @@
       </void>
       <void property="peakUserCount">
        <int>1000</int>
-      </void>
-      <void property="region">
-       <int>4</int>
       </void>
       <void property="reqPerHrPerUser">
        <int>60</int>
@@ -122,14 +119,14 @@
          <string>x</string>
          <void method="set">
           <object idref="Point2D$Double2"/>
-          <double>425.0</double>
+          <double>230.0</double>
          </void>
         </void>
         <void class="java.awt.geom.Point2D$Double" method="getField">
          <string>y</string>
          <void method="set">
           <object idref="Point2D$Double2"/>
-          <double>140.0</double>
+          <double>355.0</double>
          </void>
         </void>
        </object>
@@ -150,7 +147,7 @@
        <int>1000</int>
       </void>
       <void property="region">
-       <int>3</int>
+       <int>1</int>
       </void>
       <void property="reqPerHrPerUser">
        <int>60</int>
@@ -199,7 +196,7 @@
        <int>1000</int>
       </void>
       <void property="region">
-       <int>2</int>
+       <int>3</int>
       </void>
       <void property="reqPerHrPerUser">
        <int>60</int>
@@ -220,14 +217,14 @@
          <string>x</string>
          <void method="set">
           <object idref="Point2D$Double4"/>
-          <double>412.5</double>
+          <double>685.0</double>
          </void>
         </void>
         <void class="java.awt.geom.Point2D$Double" method="getField">
          <string>y</string>
          <void method="set">
           <object idref="Point2D$Double4"/>
-          <double>290.0</double>
+          <double>365.0</double>
          </void>
         </void>
        </object>
@@ -248,7 +245,7 @@
        <int>1000</int>
       </void>
       <void property="region">
-       <int>1</int>
+       <int>5</int>
       </void>
       <void property="reqPerHrPerUser">
        <int>60</int>
@@ -269,14 +266,14 @@
          <string>x</string>
          <void method="set">
           <object idref="Point2D$Double5"/>
-          <double>685.0</double>
+          <double>412.5</double>
          </void>
         </void>
         <void class="java.awt.geom.Point2D$Double" method="getField">
          <string>y</string>
          <void method="set">
           <object idref="Point2D$Double5"/>
-          <double>365.0</double>
+          <double>290.0</double>
          </void>
         </void>
        </object>
@@ -295,6 +292,9 @@
       </void>
       <void property="peakUserCount">
        <int>1000</int>
+      </void>
+      <void property="region">
+       <int>4</int>
       </void>
       <void property="reqPerHrPerUser">
        <int>60</int>
@@ -356,7 +356,7 @@
         <void method="add">
          <object class="cloudsim.ext.gui.MachineUIElement">
           <void property="bw">
-           <int>10000</int>
+           <int>1000000</int>
           </void>
           <void property="memory">
            <int>2048</int>
@@ -432,133 +432,12 @@
       </void>
      </object>
     </void>
-    <void method="add">
-     <object class="cloudsim.ext.gui.DataCenterUIElement">
-      <void property="architecture">
-       <string>x86</string>
-      </void>
-      <void property="color">
-       <object class="java.awt.Color">
-        <int>255</int>
-        <int>0</int>
-        <int>0</int>
-        <int>255</int>
-       </object>
-      </void>
-      <void property="costPerBw">
-       <double>0.1</double>
-      </void>
-      <void property="costPerMem">
-       <double>0.05</double>
-      </void>
-      <void property="costPerProcessor">
-       <double>0.1</double>
-      </void>
-      <void property="costPerStorage">
-       <double>0.1</double>
-      </void>
-      <void property="location">
-       <object class="java.awt.geom.Point2D$Double" id="Point2D$Double7">
-        <void class="java.awt.geom.Point2D$Double" method="getField">
-         <string>x</string>
-         <void method="set">
-          <object idref="Point2D$Double7"/>
-          <double>200.0</double>
-         </void>
-        </void>
-        <void class="java.awt.geom.Point2D$Double" method="getField">
-         <string>y</string>
-         <void method="set">
-          <object idref="Point2D$Double7"/>
-          <double>325.0</double>
-         </void>
-        </void>
-       </object>
-      </void>
-      <void property="machineList">
-       <object class="java.util.ArrayList">
-        <void method="add">
-         <object class="cloudsim.ext.gui.MachineUIElement">
-          <void property="bw">
-           <int>10000</int>
-          </void>
-          <void property="memory">
-           <int>2048</int>
-          </void>
-          <void property="processors">
-           <int>4</int>
-          </void>
-          <void property="speed">
-           <int>10000</int>
-          </void>
-          <void property="storage">
-           <long>100000</long>
-          </void>
-          <void property="vmAllocationPolicy">
-           <object idref="MachineUIElement$VmAllocationPolicy0"/>
-          </void>
-         </object>
-        </void>
-        <void method="add">
-         <object class="cloudsim.ext.gui.MachineUIElement">
-          <void property="bw">
-           <int>1000000</int>
-          </void>
-          <void property="memory">
-           <int>2048</int>
-          </void>
-          <void property="processors">
-           <int>4</int>
-          </void>
-          <void property="speed">
-           <int>10000</int>
-          </void>
-          <void property="storage">
-           <long>1000000</long>
-          </void>
-          <void property="vmAllocationPolicy">
-           <object idref="MachineUIElement$VmAllocationPolicy0"/>
-          </void>
-         </object>
-        </void>
-       </object>
-      </void>
-      <void property="name">
-       <string>DC2</string>
-      </void>
-      <void property="os">
-       <string>Linux</string>
-      </void>
-      <void property="region">
-       <int>1</int>
-      </void>
-      <void property="vmm">
-       <string>Xen</string>
-      </void>
-     </object>
-    </void>
    </object>
   </void>
   <void method="add">
    <object class="java.util.ArrayList">
     <void method="add">
      <object idref="VmAllocationUIElement0"/>
-    </void>
-    <void method="add">
-     <object class="cloudsim.ext.gui.VmAllocationUIElement">
-      <void property="bw">
-       <long>1000</long>
-      </void>
-      <void property="imageSize">
-       <long>10000</long>
-      </void>
-      <void property="memory">
-       <int>512</int>
-      </void>
-      <void property="vmCount">
-       <int>5</int>
-      </void>
-     </object>
     </void>
    </object>
   </void>
@@ -569,16 +448,16 @@
    <string>min</string>
   </void>
   <void method="add">
-   <string>1000</string>
+   <string>10</string>
+  </void>
+  <void method="add">
+   <string>10</string>
   </void>
   <void method="add">
    <string>100</string>
   </void>
   <void method="add">
-   <string>250</string>
-  </void>
-  <void method="add">
-   <string>Optimise Response Time</string>
+   <string>Closest Data Center</string>
   </void>
   <void method="add">
    <string>Round Robin</string>
